@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd" >
+<mapper namespace="com.comm.mapper.SessionMapper">
+    <!-- 插入一个最新会话 -->
+    <insert id="insertSession" parameterType="com.comm.entity.Session">
+        insert into sessions values (#{userId1},#{userId2},#{time});
+    </insert>
+
+    <!-- 查询一个用户的所有会话 -->
+    <select id="selectUserSession" resultType="com.comm.entity.Session">
+        select * from sessions
+        where userId1 = #{userId} or userId2 = #{userId}
+        order by time desc
+    </select>
+
+    <!-- 更新一个会话 -->
+    <update id="updateSession" parameterType="com.comm.entity.Session">
+        update sessions set time = #{time}
+        where (userId1=#{userId1} and userId2 = #{userId2}) or (userId1=#{userId2} and userId2 = #{userId1})
+    </update>
+
+    <!-- 删除一个会话 -->
+    <delete id="deleteSession" parameterType="com.comm.entity.Session">
+        delete from sessions
+        where (userId1=#{userId1} and userId2 = #{userId2}) or (userId1=#{userId2} and userId2 = #{userId1})
+    </delete>
+
+</mapper>

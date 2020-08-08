@@ -1,0 +1,369 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ArtifactsWorkspaceSettings">
+    <artifacts-to-build>
+      <artifact name="Communi:war" />
+    </artifacts-to-build>
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="9ced8389-c4e2-44b8-8666-2128ce9830d7" name="Default Changelist" comment="" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="DatabaseView">
+    <option name="SHOW_INTERMEDIATE" value="true" />
+    <option name="GROUP_DATA_SOURCES" value="true" />
+    <option name="GROUP_SCHEMA" value="true" />
+    <option name="GROUP_CONTENTS" value="false" />
+    <option name="SORT_POSITIONED" value="false" />
+    <option name="SHOW_EMPTY_GROUPS" value="false" />
+    <option name="AUTO_SCROLL_FROM_SOURCE" value="false" />
+    <option name="HIDDEN_KINDS">
+      <set />
+    </option>
+    <expand>
+      <path>
+        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
+        <item name="trans@localhost" type="feb32156:DbDataSourceImpl" />
+      </path>
+      <path>
+        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
+        <item name="trans@localhost" type="feb32156:DbDataSourceImpl" />
+        <item name="schemas" type="d4e8921:DatabaseStructure$FamilyGroup" />
+      </path>
+      <path>
+        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
+        <item name="trans@localhost" type="feb32156:DbDataSourceImpl" />
+        <item name="schemas" type="d4e8921:DatabaseStructure$FamilyGroup" />
+        <item name="trans: schema" type="76f4a085:MysqlImplModel$Schema" />
+      </path>
+    </expand>
+    <select />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Jsp File" />
+        <option value="HTML File" />
+        <option value="CSS File" />
+        <option value="JavaScript File" />
+        <option value="Class" />
+        <option value="mapper" />
+        <option value="Interface" />
+      </list>
+    </option>
+  </component>
+  <component name="LogFilters">
+    <option name="FILTER_ERRORS" value="false" />
+    <option name="FILTER_WARNINGS" value="false" />
+    <option name="FILTER_INFO" value="true" />
+    <option name="FILTER_DEBUG" value="true" />
+    <option name="CUSTOM_FILTER" />
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="mavenHome" value="E:/maven/apache-maven-3.6.0" />
+        <option name="userSettingsFile" value="E:\maven\apache-maven-3.6.0\conf\settings.xml" />
+      </MavenGeneralSettings>
+    </option>
+  </component>
+  <component name="ProjectId" id="1ZpuXa2Fh2Hf0hnUDd6lYRFhEl6" />
+  <component name="PropertiesComponent">
+    <property name="DatabaseDriversLRU" value="mysql" />
+    <property name="DefaultHtmlFileTemplate" value="HTML File" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="extract.method.default.visibility" value="private" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../exam" />
+    <property name="list.type.of.created.stylesheet" value="CSS" />
+    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.2" />
+    <property name="settings.editor.selected.configurable" value="project.propVCSSupport.Mappings" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.user.serviceImpl" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="E:\IDEA_workspace\Communi\src\main\webapp\css\comm" />
+      <recent name="E:\IDEA_workspace\Communi\src\main\webapp\js\comm" />
+      <recent name="E:\IDEA_workspace\Communi\src\main\webapp\images\chat" />
+      <recent name="E:\IDEA_workspace\Communi\src\main\java\com\comm\services" />
+      <recent name="E:\IDEA_workspace\Communi\src\main\webapp\js" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager" selected="Tomcat Server.Tomcat 8.5.371">
+    <configuration name="MsgExTest.controllerTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Communi" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="MsgExTest" />
+      <option name="METHOD_NAME" value="controllerTest" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="MsgExTest.insertMessageTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Communi" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="MsgExTest" />
+      <option name="METHOD_NAME" value="insertMessageTest" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="MsgExTest.selectRecentSessionTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Communi" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="MsgExTest" />
+      <option name="METHOD_NAME" value="selectRecentSessionTest" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Tomcat 8.5.371" type="#com.intellij.j2ee.web.tomcat.TomcatRunConfigurationFactory" factoryName="Local" APPLICATION_SERVER_NAME="Tomcat 8.5.371" ALTERNATIVE_JRE_ENABLED="false" nameIsGenerated="true">
+      <option name="BROWSER_ID" value="a7bb68e0-33c0-4d6f-a81a-aac1fdb870c8" />
+      <option name="COMMON_VM_ARGUMENTS" value="-Dfile.encoding=UTF-8" />
+      <option name="UPDATING_POLICY" value="restart-server" />
+      <deployment>
+        <artifact name="Communi:war">
+          <settings>
+            <option name="CONTEXT_PATH" value="/Communi_war" />
+          </settings>
+        </artifact>
+      </deployment>
+      <server-settings>
+        <option name="BASE_DIRECTORY_NAME" value="Unnamed_Communi" />
+      </server-settings>
+      <predefined_log_file enabled="true" id="Tomcat" />
+      <predefined_log_file enabled="true" id="Tomcat Catalina" />
+      <predefined_log_file id="Tomcat Manager" />
+      <predefined_log_file id="Tomcat Host Manager" />
+      <predefined_log_file id="Tomcat Localhost Access" />
+      <RunnerSettings RunnerId="Debug">
+        <option name="DEBUG_PORT" value="58853" />
+      </RunnerSettings>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Cover">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Debug">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Run">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <method v="2">
+        <option name="Make" enabled="true" />
+        <option name="BuildArtifacts" enabled="true">
+          <artifact name="Communi:war" />
+        </option>
+      </method>
+    </configuration>
+    <list>
+      <item itemvalue="JUnit.MsgExTest.insertMessageTest" />
+      <item itemvalue="JUnit.MsgExTest.selectRecentSessionTest" />
+      <item itemvalue="JUnit.MsgExTest.controllerTest" />
+      <item itemvalue="Tomcat Server.Tomcat 8.5.371" />
+    </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="JUnit.MsgExTest.controllerTest" />
+        <item itemvalue="JUnit.MsgExTest.insertMessageTest" />
+        <item itemvalue="JUnit.MsgExTest.selectRecentSessionTest" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="ServiceViewManager">
+    <option name="allServicesViewState">
+      <serviceView>
+        <option name="contentProportion" value="0.23570324" />
+        <treeState>
+          <expand />
+          <select />
+        </treeState>
+      </serviceView>
+    </option>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="9ced8389-c4e2-44b8-8666-2128ce9830d7" name="Default Changelist" comment="" />
+      <created>1585548396050</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1585548396050</updated>
+      <workItem from="1585548399664" duration="14547000" />
+      <workItem from="1585873558667" duration="635000" />
+      <workItem from="1586006864439" duration="175000" />
+      <workItem from="1586008635532" duration="275000" />
+      <workItem from="1586009187659" duration="836000" />
+      <workItem from="1586085847748" duration="3799000" />
+      <workItem from="1586156018994" duration="5530000" />
+      <workItem from="1586165227423" duration="14085000" />
+      <workItem from="1586184167107" duration="5470000" />
+      <workItem from="1586252153571" duration="10910000" />
+      <workItem from="1586440283971" duration="357000" />
+      <workItem from="1586440799933" duration="1106000" />
+      <workItem from="1586443809113" duration="9000" />
+      <workItem from="1586445678789" duration="154000" />
+      <workItem from="1586445888189" duration="14000" />
+      <workItem from="1586446033689" duration="378000" />
+      <workItem from="1586446433227" duration="7000" />
+      <workItem from="1586446901678" duration="13000" />
+      <workItem from="1586591902413" duration="21108000" />
+      <workItem from="1586626670404" duration="5362000" />
+      <workItem from="1586666746922" duration="12656000" />
+      <workItem from="1586740154621" duration="7398000" />
+      <workItem from="1586841181839" duration="23263000" />
+      <workItem from="1586879335607" duration="2378000" />
+      <workItem from="1586925223540" duration="19860000" />
+      <workItem from="1586995426407" duration="43000" />
+      <workItem from="1587019129311" duration="10291000" />
+      <workItem from="1587044411287" duration="1078000" />
+      <workItem from="1587087472361" duration="1319000" />
+      <workItem from="1587088829387" duration="10664000" />
+      <workItem from="1587176113720" duration="2520000" />
+      <workItem from="1587201477639" duration="10503000" />
+      <workItem from="1587275168402" duration="6597000" />
+      <workItem from="1587281861519" duration="17531000" />
+      <workItem from="1587318241186" duration="5463000" />
+      <workItem from="1587365982007" duration="15116000" />
+      <workItem from="1587394266076" duration="7419000" />
+      <workItem from="1587457838717" duration="5704000" />
+      <workItem from="1587479497247" duration="4725000" />
+      <workItem from="1587542288495" duration="17650000" />
+      <workItem from="1587574549707" duration="110000" />
+      <workItem from="1587620265291" duration="10875000" />
+      <workItem from="1587640022347" duration="13268000" />
+      <workItem from="1587696148826" duration="3244000" />
+      <workItem from="1587701377934" duration="26962000" />
+      <workItem from="1587785092908" duration="4413000" />
+      <workItem from="1587860107370" duration="1529000" />
+      <workItem from="1587971502949" duration="911000" />
+      <workItem from="1588144770654" duration="171000" />
+      <workItem from="1588597910158" duration="103000" />
+      <workItem from="1588598580714" duration="1329000" />
+      <workItem from="1588600099853" duration="194000" />
+      <workItem from="1588686552891" duration="21000" />
+      <workItem from="1588906998557" duration="1987000" />
+      <workItem from="1589166053834" duration="4525000" />
+      <workItem from="1589501215476" duration="1072000" />
+      <workItem from="1589502853902" duration="241000" />
+      <workItem from="1589504067435" duration="105000" />
+      <workItem from="1589504310493" duration="421000" />
+      <workItem from="1589504792729" duration="299000" />
+      <workItem from="1589507120837" duration="368000" />
+      <workItem from="1589509656477" duration="43000" />
+      <workItem from="1589549513659" duration="17000" />
+      <workItem from="1589549561730" duration="48000" />
+      <workItem from="1589549732066" duration="14000" />
+      <workItem from="1589552810627" duration="80000" />
+      <workItem from="1589559862130" duration="32000" />
+      <workItem from="1589722634193" duration="77000" />
+      <workItem from="1589731918216" duration="405000" />
+      <workItem from="1589761923259" duration="20000" />
+      <workItem from="1589764375131" duration="27000" />
+      <workItem from="1589768412610" duration="259000" />
+      <workItem from="1589778690026" duration="2450000" />
+      <workItem from="1589788611276" duration="784000" />
+      <workItem from="1589789845558" duration="852000" />
+      <workItem from="1589791036112" duration="621000" />
+      <workItem from="1589793157279" duration="52000" />
+      <workItem from="1589793593472" duration="43000" />
+      <workItem from="1589809731455" duration="56000" />
+      <workItem from="1589819528909" duration="38000" />
+      <workItem from="1589819599098" duration="32000" />
+      <workItem from="1589819662505" duration="26000" />
+      <workItem from="1589822094020" duration="78000" />
+      <workItem from="1589824018033" duration="49000" />
+      <workItem from="1590375707556" duration="570000" />
+      <workItem from="1590376320437" duration="620000" />
+      <workItem from="1590376982785" duration="35000" />
+      <workItem from="1590497228769" duration="5415000" />
+      <workItem from="1590504253819" duration="870000" />
+      <workItem from="1590548379217" duration="83000" />
+      <workItem from="1590576582632" duration="69000" />
+      <workItem from="1590643604044" duration="74000" />
+      <workItem from="1590673064651" duration="1645000" />
+      <workItem from="1590737062045" duration="2349000" />
+      <workItem from="1590739644184" duration="1190000" />
+      <workItem from="1590742374126" duration="584000" />
+      <workItem from="1590744568057" duration="1197000" />
+      <workItem from="1590747386052" duration="150000" />
+      <workItem from="1590751643811" duration="851000" />
+      <workItem from="1590755533948" duration="242000" />
+      <workItem from="1590755827598" duration="868000" />
+      <workItem from="1590757076001" duration="149000" />
+      <workItem from="1590757403316" duration="1670000" />
+      <workItem from="1590942556271" duration="58000" />
+      <workItem from="1590943097235" duration="587000" />
+      <workItem from="1591082891619" duration="25000" />
+      <workItem from="1591317989001" duration="17000" />
+      <workItem from="1592456814871" duration="22000" />
+      <workItem from="1592468884808" duration="453000" />
+      <workItem from="1592487331608" duration="672000" />
+      <workItem from="1596819846295" duration="3950000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+</project>

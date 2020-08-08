@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd" >
+<mapper namespace="com.comm.mapper.MessageMapper">
+
+    <!-- 增加一条消息 -->
+    <insert id="insertMessage" parameterType="com.comm.mapper.MessageMapper">
+        insert into messages values (#{userId},#{chatUserId},#{text},#{type},#{flag},#{time})
+    </insert>
+
+    <!-- 查询两位用户历史聊天记录 -->
+    <select id="selectMsgEx" resultType="com.comm.entity.Message">
+        select * from messages
+        where (userId = #{userId} and chatUserId = #{chatUserId})
+           or (userId = #{chatUserId} and chatUserId = #{userId})
+        order by time
+    </select>
+
+    <!-- 查询两位用户间的未读消息 -->
+    <select id="selectUnreadMsgEx" resultType="com.comm.entity.Message">
+        select * from messages
+        where userId = #{userId} and chatUserId = #{chatUserId} and flag=0
+        order by time
+    </select>
+
+    <!-- 更新两位用户间未读消息为读过的消息 -->
+    <update id="updateReadFlag">
+        update messages set flag = 1
+        where userId = #{userId} and chatUserId = #{chatUserId}
+    </update>
+
+    <!-- 删除一条消息 -->
+    <delete id="deleteMessage">
+        delete from messages
+        where userId = #{userId} and chatUserId = #{chatUserId} and time = #{time}
+    </delete>
+</mapper>
